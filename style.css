@@ -8,16 +8,26 @@ body
         font-size: 20px;
         position: relative;
         top: -50px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+
+        background-image: url("img/srry\ for\ stealing\ but\ I\'m\ lazy.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;;
+        
     }
 
-div
-    {
-        color: black;
-        font-family: 'Courier New', Courier, monospace;
-    }
 button
     {
         border-radius: 5px;
+        cursor: pointer;
+    }
+
+button:hover
+    {
+        color: beige;
+        background-color: #31343a;
     }
 
 header 
@@ -27,6 +37,11 @@ header
         font-size: 80px;
         font-weight: bold;
         font-variant-caps: all-small-caps;
+        
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 5px solid beige;
+        background-color: #31343a;
     }
 
 .soldtxt
@@ -34,10 +49,39 @@ header
         position: absolute;
         right: 5vh;
         top: 10vh;
+        background-color: #31343a;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        border: 2px solid beige;
     }
+
 .sold
     {
         position: absolute;
-        right: 5vh;
+        right: 5.5vh;
         top: 13vh;
+    }
+
+
+.storage
+    {
+        padding-bottom: 20px;
+    }
+
+.empty
+    {
+        z-index: -5;
+        position: absolute;
+        justify-content: center;
+        top: 40vh;
+
+
+        background-color: #31343a;
+        border: 5px solid beige;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 200px;
+        padding-bottom: 50px;
     }
