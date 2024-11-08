@@ -18,13 +18,13 @@ body
         
     }
 
-button
+.btn
     {
         border-radius: 5px;
         cursor: pointer;
     }
 
-button:hover
+.btn:hover
     {
         color: beige;
         background-color: #31343a;
@@ -57,7 +57,7 @@ header
         border: 2px solid beige;
     }
 
-.sold
+#sold
     {
         position: absolute;
         right: 5.5vh;
@@ -75,13 +75,13 @@ header
         z-index: -5;
         position: absolute;
         justify-content: center;
-        top: 40vh;
+        top: 42vh;
 
 
         background-color: #31343a;
         border: 5px solid beige;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 120px;
+        padding-right: 120px;
         padding-top: 200px;
         padding-bottom: 50px;
     }

@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waffle Shop</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
 </head>
 <body>
     <div class="soldtxt">number sold</div>
-    <div class="sold">0</div>
+    <div id="sold">0</div>
     <header>waffle shop</header>
-    <button class="make">Make Waffle</button>
-    <div class="storage">0</div>
-    <button class="sell">Sell</button>
+    <p>20$ / each waffle</p>
+    <button class="btn" id="make">Make Waffle</button>
+    <div id="storage">0</div>
+    <button class="btn" id="sell">Sell</button>
     <div class="profit">profit</div>
-    <div class="money">0</div>
+    <div id="money">0</div>
     <div class="empty"></div>
+
+
+<!-- lesson learnt, dont put script src at the head xD -->
+    <script src="index.js"></script>
 </body>
 </html>
